@@ -3,6 +3,7 @@ package com.drum.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+
 @Controller
 @RequestMapping("/v2/")
 public class NewController {
@@ -15,12 +16,11 @@ public class NewController {
 	
 	@RequestMapping("/login")
 	public String loginRequest() {
+		
 		System.out.println("loginRequest.getResponse()");
 		
 		return "profile";
 	}
 	
 	
-	
-
 }

@@ -8,5 +8,6 @@
 </head>
 <body bgcolor="pink">
 <h1>"WELCOME TO MY PROFILE"</h1>
+<h2>${msg}</h2>
 </body>
 </html>
